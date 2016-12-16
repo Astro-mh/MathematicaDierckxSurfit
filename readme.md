@@ -6,7 +6,7 @@ It is still at a very early stage of development, and is missing a build phase a
 
 The original code can be found at [netlib](http://www.netlib.org/dierckx/)
 
-It includes two slightly altered routines, bispevSA and fpbispSA which return the fitted points only at the positions specified by the arrays x and yorig, as opposed to the original which returned a grid specified by x and y.
+It includes two slightly altered routines, bispevSA and fpbispSA which return the fitted points only at the positions specified by the arrays `x` and `yorig`, as opposed to the original which returned a grid specified by `x` and `y`.
 
 On a Cent OS 7 machine with a standard Mathematica install this has been successfully compiled with the following commands:
 ```
